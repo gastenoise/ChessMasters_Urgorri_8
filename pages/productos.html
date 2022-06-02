@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Productos - Chess Masters</title>
+</head>
+<body>
+    <nav>
+        <div class="social">
+            <a href="https://instagram.com/chessmasters" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://twitter.com/chessmasters" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="https://facebook.com/chessmasters" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+        </div>
+        <div class="links">
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="galeria.html">Galería</a>
+                </li>
+                <li class="selected">
+                    <a href="">Productos</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <div class="linksmobile">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <header class="hpages">
+        <div>
+            <h1>Productos</h1>
+        </div>
+    </header>
+    <section class="productos">
+        <h2>Nuestros productos mas solicitados:</h2>
+        <div class="wrapper">
+            <div class="prod0">
+                <img src="../assets/img/pr-tableros.png">
+                <p class="text">Tableros</p>
+            </div>
+            <div class="prod1">
+                <img src="../assets/img/pr-tableros.png">
+                <p class="text">Gorras</p>
+            </div>
+            <div class="prod2">
+                <img src="../assets/img/pr-tableros.png">
+                <p class="text">Piezas</p>
+            </div>
+            <div class="prod3">
+                <img src="../assets/img/pr-tableros.png">
+                <p class="text">Remeras</p>
+            </div>
+            <div class="prod4">
+                <img src="../assets/img/pr-tableros.png">
+                <p class="text">Relojes</p>
+            </div>
+            <div class="prod5">
+                <img src="../assets/img/pr-tableros.png">
+                <p class="text">Posters</p>
+            </div>
+        </div>
+    </section>
+    <section class="contacto">
+        <div class="left">
+            <h3>Solicitanos el que quieras!</h3>
+            <p>Te llevamos el producto que necesites a la puerta de tu casa.</p>
+            <p>Enviamos grandes cantidades al mejor precio del mercado, siempre.</p>
+        </div>
+        <div class="right">
+            <form action="contactoprods.php" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Nombre Completo" required>
+                <br><br>
+                <input type="email" name="mail" placeholder="E-Mail" required>
+                <br><br>
+                <input type="number" name="celu" placeholder="Número Celular" required>
+                <br><br>
+                <select name="servicio" required>
+                    <option value="eventos">Alquilar</option>
+                    <option value="equipos">Comprar</option>
+                </select>
+                <br><br>
+                <textarea name="" id="" cols="21" rows="5" placeholder="Cantidad y producto a solicitar" required></textarea>
+                <br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <section class="top">
+            <div class="left">
+                <a href="../index.html">Inicio</a><br>
+                <a href="nosotros.html">Nosotros</a><br>
+                <a href="galeria.html">Galería</a><br>
+                <a href="">Productos</a><br>
+                <a href="contacto.html">Contacto</a><br>
+            </div>    
+            <div class="mid">
+                <a>Suscribite a nuestro NewsLetter!</a><br>
+                <form action="newsletter.php" method="post" enctype="text/plain">
+                    <input type="email" name="mail" placeholder="E-Mail" required>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">No soy un robot</label>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <div class="right">
+                <div><p>Dirección:</p><a href="">Tucumán 2500, Balvanera, CABA.</a></div>
+                <div><p>Teléfono:</p><a href="">+54 011 4056 7800</a></div>
+                <div><p>Código postal:</p><a href="">C1056</a></div>
+            </div>  
+        </section>
+        <section class="bottom">
+            <div class="left">     
+                <p>Copyright 2022, Gastón Urgorri. Todos los derechos Reservados</p>
+            </div> 
+            <div class="right"> 
+                <p>Seguinos en:</p>
+                <a href="https://instagram.com/chessmasters" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                <a href="https://twitter.com/chessmasters" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://facebook.com/chessmasters" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+            </div> 
+        </section> 
+    </footer>   
+</body>
+</html>
